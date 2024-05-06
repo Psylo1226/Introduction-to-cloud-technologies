@@ -1,0 +1,293 @@
+{
+    "documents": [
+        {
+            "id": "id__1035",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.37,
+                "neutral": 0.05,
+                "negative": 0.57
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.03,
+                        "negative": 0.97
+                    },
+                    "offset": 0,
+                    "length": 186,
+                    "text": "Very noisy and rooms are tiny The Lombard Hotel, San Francisco, USA 9/5/2018 Hotel is located on Lombard street which is a very busy SIX lane street directly off the Golden Gate Bridge. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 15,
+                            "length": 5,
+                            "text": "rooms",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 25,
+                            "length": 4,
+                            "text": "tiny",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.06,
+                        "neutral": 0.82,
+                        "negative": 0.13
+                    },
+                    "offset": 186,
+                    "length": 71,
+                    "text": "Traffic from early morning until late at night especially on weekends. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.13,
+                        "neutral": 0.07,
+                        "negative": 0.8
+                    },
+                    "offset": 257,
+                    "length": 75,
+                    "text": "Noise would not be so bad if rooms were better insulated but they are not. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.02,
+                        "negative": 0.97
+                    },
+                    "offset": 332,
+                    "length": 101,
+                    "text": "Had to put cotton balls in my ears to be able to sleep–was too tired to enjoy the city the next day. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.02,
+                        "negative": 0.97
+                    },
+                    "offset": 433,
+                    "length": 16,
+                    "text": "Rooms are TINY. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 433,
+                            "length": 5,
+                            "text": "Rooms",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 443,
+                            "length": 4,
+                            "text": "TINY",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.15,
+                        "negative": 0.84
+                    },
+                    "offset": 449,
+                    "length": 96,
+                    "text": "I picked the room because it had two queen size beds–but the room barely had space to fit them. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.59,
+                        "negative": 0.38
+                    },
+                    "offset": 545,
+                    "length": 46,
+                    "text": "With family of four in the room it was tight. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 572,
+                            "length": 4,
+                            "text": "room",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/6/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 584,
+                            "length": 5,
+                            "text": "tight",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.91,
+                        "neutral": 0.08,
+                        "negative": 0.02
+                    },
+                    "offset": 591,
+                    "length": 79,
+                    "text": "With all that said, rooms are clean and they’ve made an effort to update them. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 611,
+                            "length": 5,
+                            "text": "rooms",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/7/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 621,
+                            "length": 5,
+                            "text": "clean",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.96,
+                        "neutral": 0.04,
+                        "negative": 0
+                    },
+                    "offset": 670,
+                    "length": 102,
+                    "text": "The hotel is in Marina district with lots of good places to eat, within walking distance to Presidio. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 772,
+                    "length": 59,
+                    "text": "May be good hotel for young stay-up-late adults on a budget",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 784,
+                            "length": 5,
+                            "text": "hotel",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/9/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 779,
+                            "length": 4,
+                            "text": "good",
+                            "isNegated": false
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
